@@ -13,7 +13,7 @@ export default {
         type: 'slug',
         title: 'URL-tittel', 
         options: {
-          source: 'product_title',
+          source: 'category_title',
           slugify: input => input
           .toLowerCase()
           .replace(/[^\w]+/g, '-')
